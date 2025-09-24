@@ -13,6 +13,7 @@ class StudyBot {
     init() {
         this.setupEventListeners();
         this.loadStudyMaterials();
+        this.setupBackButtons();
     }
 
     setupEventListeners() {
@@ -53,6 +54,11 @@ class StudyBot {
 
         document.getElementById('clearParagraph').addEventListener('click', () => {
             this.clearParagraph();
+        });
+
+        // Next prompt button
+        document.getElementById('nextPrompt').addEventListener('click', () => {
+            this.generateRandomPrompt();
         });
 
         document.getElementById('writeAnother').addEventListener('click', () => {
@@ -337,6 +343,47 @@ class StudyBot {
             li.textContent = guideline;
             guidelinesList.appendChild(li);
         });
+        
+        // Generate random writing prompt
+        this.generateRandomPrompt();
+    }
+
+    generateRandomPrompt() {
+        const prompts = this.getWritingPrompts(this.currentSubject);
+        if (prompts.length > 0) {
+            const randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
+            this.displayWritingPrompt(randomPrompt);
+        }
+    }
+
+    displayWritingPrompt(prompt) {
+        const promptContainer = document.getElementById('writingPrompt');
+        if (promptContainer) {
+            promptContainer.innerHTML = `
+                <div class="writing-prompt">
+                    <h4><i class="fas fa-lightbulb"></i> Writing Prompt</h4>
+                    <div class="prompt-content">
+                        <p><strong>Person:</strong> ${prompt.person}</p>
+                        <p><strong>Place:</strong> ${prompt.place}</p>
+                        <p><strong>Topic:</strong> ${prompt.topic}</p>
+                        <p class="prompt-instruction">Write a paragraph about how <strong>${prompt.person}</strong> and <strong>${prompt.place}</strong> relate to <strong>${prompt.topic}</strong> in the context of ${this.getSubjectDisplayName(this.currentSubject)}.</p>
+                    </div>
+                </div>
+            `;
+        }
+    }
+
+    getSubjectDisplayName(subject) {
+        const subjectNames = {
+            prehistory: 'Prehistory & Human Evolution',
+            mesopotamia: 'Mesopotamian Civilizations',
+            israel: 'Ancient Israel & Hebrew Monotheism',
+            egypt: 'Ancient Egypt',
+            india: 'Ancient India',
+            china: 'Ancient China',
+            greece: 'Ancient Greece'
+        };
+        return subjectNames[subject] || subject;
     }
 
     updateWordCount(text) {
@@ -540,6 +587,76 @@ class StudyBot {
         }
         
         return false;
+    }
+
+    getWritingPrompts(subject) {
+        const prompts = {
+            prehistory: [
+                { person: 'Lucy (Australopithecus afarensis)', place: 'Hadar, Ethiopia', topic: 'bipedalism and early human evolution' },
+                { person: 'Neanderthals', place: 'Neander Valley, Germany', topic: 'hunter-gatherer adaptation to ice age' },
+                { person: 'Cro-Magnon humans', place: 'Lascaux Cave, France', topic: 'cave art and symbolic thinking' },
+                { person: 'Agricultural pioneers', place: 'Jericho, West Bank', topic: 'neolithic revolution and first cities' },
+                { person: 'Settlement builders', place: 'Çatalhöyük, Turkey', topic: 'early urban planning and architecture' },
+                { person: 'Beringia migrants', place: 'Bering Strait', topic: 'human migration to the Americas' },
+                { person: 'Stone tool makers', place: 'Olduvai Gorge, Tanzania', topic: 'paleolithic technology development' }
+            ],
+            mesopotamia: [
+                { person: 'Sargon of Akkad', place: 'Akkad (near Baghdad)', topic: 'first empire building and military conquest' },
+                { person: 'Hammurabi', place: 'Babylon (Iraq)', topic: 'law code development and justice system' },
+                { person: 'Gilgamesh', place: 'Uruk (Iraq)', topic: 'epic literature and sumerian culture' },
+                { person: 'Nebuchadnezzar II', place: 'Babylon (Iraq)', topic: 'hanging gardens and neo-babylonian empire' },
+                { person: 'Sumerian scribes', place: 'Ur (Iraq)', topic: 'cuneiform writing and record keeping' },
+                { person: 'Assyrian kings', place: 'Nineveh (Iraq)', topic: 'military expansion and terror tactics' },
+                { person: 'Ziggurat priests', place: 'Nippur (Iraq)', topic: 'religious architecture and sumerian religion' }
+            ],
+            israel: [
+                { person: 'Abraham', place: 'Ur of the Chaldeans (Iraq)', topic: 'covenant and monotheistic origins' },
+                { person: 'Moses', place: 'Mount Sinai (Egypt/Sinai Peninsula)', topic: 'exodus and ten commandments' },
+                { person: 'King David', place: 'Jerusalem, Israel', topic: 'united monarchy and jerusalem as capital' },
+                { person: 'King Solomon', place: 'Jerusalem, Israel', topic: 'first temple construction and wisdom literature' },
+                { person: 'Prophet Isaiah', place: 'Jerusalem, Israel', topic: 'babylonian exile and prophetic tradition' },
+                { person: 'Phoenician traders', place: 'Tyre, Lebanon', topic: 'alphabet development and mediterranean trade' },
+                { person: 'Hannibal', place: 'Carthage, Tunisia', topic: 'punic wars and carthaginian empire' }
+            ],
+            egypt: [
+                { person: 'Narmer (Menes)', place: 'Memphis, Egypt', topic: 'egyptian unification and first dynasty' },
+                { person: 'Pharaoh Khufu', place: 'Giza, Egypt', topic: 'great pyramid construction and old kingdom' },
+                { person: 'Hatshepsut', place: 'Thebes, Egypt', topic: 'female pharaoh rule and mortuary temple' },
+                { person: 'Akhenaten', place: 'Amarna, Egypt', topic: 'monotheistic revolution and aten worship' },
+                { person: 'Tutankhamun', place: 'Valley of Kings, Egypt', topic: 'tomb discovery and new kingdom burial practices' },
+                { person: 'Ramesses II', place: 'Abu Simbel, Egypt', topic: 'battle of kadesh and nubian monuments' },
+                { person: 'Cleopatra VII', place: 'Alexandria, Egypt', topic: 'hellenistic egypt and roman relations' }
+            ],
+            india: [
+                { person: 'Siddhartha Gautama (Buddha)', place: 'Bodh Gaya, India', topic: 'enlightenment and four noble truths' },
+                { person: 'Chandragupta Maurya', place: 'Pataliputra (Patna), India', topic: 'mauryan empire founding and arthashastra' },
+                { person: 'Ashoka the Great', place: 'Pataliputra (Patna), India', topic: 'buddhist conversion and rock edicts' },
+                { person: 'Harappan engineers', place: 'Mohenjo-daro, Pakistan', topic: 'urban planning and indus valley civilization' },
+                { person: 'Vedic priests', place: 'Indus Valley, Pakistan', topic: 'hinduism development and vedic literature' },
+                { person: 'Gupta mathematicians', place: 'Ujjain, India', topic: 'decimal system and zero concept' },
+                { person: 'Kautilya (Chanakya)', place: 'Taxila, Pakistan', topic: 'arthashastra and political philosophy' }
+            ],
+            china: [
+                { person: 'Confucius', place: 'Lu State (Shandong), China', topic: 'confucian philosophy and moral teachings' },
+                { person: 'Laozi', place: 'Zhou Dynasty, China', topic: 'daoist principles and wu wei' },
+                { person: 'First Emperor Qin Shi Huang', place: 'Xianyang, China', topic: 'china unification and standardization' },
+                { person: 'Emperor Wu of Han', place: 'Chang\'an (Xi\'an), China', topic: 'silk road expansion and han dynasty' },
+                { person: 'Sun Tzu', place: 'Wu State, China', topic: 'art of war and military strategy' },
+                { person: 'Zhang Qian', place: 'Central Asia', topic: 'silk road exploration and cultural exchange' },
+                { person: 'Ban Zhao', place: 'Han Court, China', topic: 'women\'s education and confucian scholarship' }
+            ],
+            greece: [
+                { person: 'Socrates', place: 'Athens, Greece', topic: 'philosophical method and socratic questioning' },
+                { person: 'Plato', place: 'Academy of Athens, Greece', topic: 'ideal forms and platonic philosophy' },
+                { person: 'Aristotle', place: 'Lyceum, Athens, Greece', topic: 'empirical observation and scientific method' },
+                { person: 'Pericles', place: 'Athens, Greece', topic: 'democratic reforms and golden age' },
+                { person: 'Alexander the Great', place: 'Macedon, Greece', topic: 'hellenistic expansion and cultural diffusion' },
+                { person: 'Leonidas', place: 'Sparta, Greece', topic: 'thermopylae defense and spartan military' },
+                { person: 'Homer', place: 'Ionia (Turkey)', topic: 'epic poetry and oral tradition' }
+            ]
+        };
+        
+        return prompts[subject] || [];
     }
 
     getSubjectKeywords(subject) {
@@ -824,25 +941,24 @@ class StudyBot {
 
     // Download function for study materials
     async downloadFile(fileName) {
+        const originalFileName = this.getOriginalFileName(fileName);
         try {
-            const response = await fetch(`content/${fileName}`);
+            const response = await fetch(originalFileName);
             if (response.ok) {
                 const blob = await response.blob();
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.href = url;
-                a.download = fileName;
+                a.download = originalFileName;
                 document.body.appendChild(a);
                 a.click();
                 window.URL.revokeObjectURL(url);
                 document.body.removeChild(a);
             } else {
-                // Fallback: open in new tab if download fails
-                window.open(`content/${fileName}`, '_blank');
+                window.open(originalFileName, '_blank');
             }
         } catch (error) {
-            // Fallback: open in new tab if fetch fails
-            window.open(`content/${fileName}`, '_blank');
+            window.open(originalFileName, '_blank');
         }
     }
 
@@ -854,6 +970,79 @@ class StudyBot {
         }
         return shuffled;
     }
+
+    // Back button functionality
+    backToSubjects() {
+        document.getElementById('paragraphArea').style.display = 'none';
+        document.getElementById('gradingResults').style.display = 'none';
+        document.querySelector('.subject-selection').style.display = 'block';
+        this.clearParagraph();
+    }
+
+    backToStudyMain() {
+        // Close any open modals
+        const modal = document.getElementById('materialModal');
+        if (modal) {
+            modal.style.display = 'none';
+        }
+        // This function is mainly for consistency, as study materials don't have sub-pages
+    }
+
+    setupBackButtons() {
+        // Back button for paragraph writing
+        const backToSubjectsBtn = document.getElementById('backToSubjects');
+        if (backToSubjectsBtn) {
+            backToSubjectsBtn.addEventListener('click', () => {
+                this.backToSubjects();
+            });
+        }
+
+        // Back button for study materials
+        const backToStudyMainBtn = document.getElementById('backToStudyMain');
+        if (backToStudyMainBtn) {
+            backToStudyMainBtn.addEventListener('click', () => {
+                this.backToStudyMain();
+            });
+        }
+    }
+
+    // Download function with original file mapping
+    getOriginalFileName(txtFileName) {
+        // Map .txt files to their original formats
+        const fileMapping = {
+            '2310-F25-01-In_the_Beginning.txt': '2310-F25-01-In_the_Beginning.pptx',
+            '2310-F25-02-Paleolithic_and_Neolithic_Humanity.txt': '2310-F25-02-Paleolithic_and_Neolithic_Humanity.pptx',
+            '2310-F25-03-Mesopotamia-I.txt': '2310-F25-03-Mesopotamia-I.pptx',
+            '2310-F25-04-Mesopotamia-II.txt': '2310-F25-04-Mesopotamia-II.pptx',
+            '2310-F25-05-AncientIsrael.txt': '2310-F25-05-AncientIsrael.pptx',
+            '2310-F25-06-AncientEgypt-I.txt': '2310-F25-06-AncientEgypt-I.pptx',
+            '2310-F25-07-AncientEgypt-II.txt': '2310-F25-07-AncientEgypt-II.pptx',
+            '2310-F25-08-AncientIndia-I.txt': '2310-F25-08-AncientIndia-I.pptx',
+            '2310-F25-09-AncientIndia-II.txt': '2310-F25-09-AncientIndia-II.pptx',
+            '2310-F25-10-AncientIndia-III.txt': '2310-F25-10-AncientIndia-III.pptx',
+            '2310-F25-11-AncientIndia-IV.txt': '2310-F25-11-AncientIndia-IV.pptx',
+            '2310-F25-12-AncientChina-I.txt': '2310-F25-12-AncientChina-I.pptx',
+            '2310-F25-13-AncientChina-II.txt': '2310-F25-13-AncientChina-II.pptx',
+            '2310-F25-14-AncientChina-III.txt': '2310-F25-14-AncientChina-III.pptx',
+            '2310-F25-15-MinoanCivilization.txt': '2310-F25-15-MinoanCivilization.pptx',
+            '2310-F25-16-MycenaeanCivilization.txt': '2310-F25-16-MycenaeanCivilization.pptx',
+            '2310-F25-17-GreekDarkAges.txt': '2310-F25-17-GreekDarkAges.pptx',
+            '2310-F25-18-ArchaicGreece-I.txt': '2310-F25-18-ArchaicGreece-I.pptx',
+            '2310-F25-19-ArchaicGreece-II.txt': '2310-F25-19-ArchaicGreece-II.pptx',
+            '2310-F25-20-ArchaicGreece-III.txt': '2310-F25-20-ArchaicGreece-III.pptx',
+            '2310-F25-21-ArchaicGreece-IV.txt': '2310-F25-21-ArchaicGreece-IV.pptx',
+            '2310-F25-22-AncientPersia.txt': '2310-F25-22-AncientPersia.pptx',
+            '2310-S25-23-PersianWars.txt': '2310-S25-23-PersianWars.pptx',
+            '0.txt': '0.docx',
+            '1.txt': '1.docx',
+            '2.txt': '2.docx',
+            '3.txt': '3.docx',
+            '4.txt': '4.txt',
+            '5.txt': '5.txt'
+        };
+        
+        return fileMapping[txtFileName] || txtFileName;
+    }
 }
 
 // Initialize the study bot when the page loads
@@ -863,19 +1052,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Global download function
 function downloadFile(fileName) {
-    // Create a temporary link element with download attribute
-    const link = document.createElement('a');
-    link.href = `content/${fileName}`;
-    link.download = fileName;
-    link.target = '_blank';
-    
-    // Add to DOM, click, then remove
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    
-    // If that doesn't work, try opening in new tab
-    setTimeout(() => {
-        window.open(`content/${fileName}`, '_blank');
-    }, 100);
+    if (window.studyBot) {
+        window.studyBot.downloadFile(fileName);
+    } else {
+        // Fallback for when studyBot isn't initialized yet
+        const link = document.createElement('a');
+        link.href = `content/${fileName}`;
+        link.download = fileName;
+        link.target = '_blank';
+        
+        // Add to DOM, click, then remove
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        // If that doesn't work, try opening in new tab
+        setTimeout(() => {
+            window.open(`content/${fileName}`, '_blank');
+        }, 100);
+    }
 }
