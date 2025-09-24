@@ -1,0 +1,359 @@
+Text extracted from: 1.docx
+================================================================================
+
+Chapter 1: Prehistory
+
+Eugene Berger
+
+1.1 CHRONOLOGY
+
+1.2 INTRODUCTION
+
+In 1952, at the age of 77 and suffering with an abdominal hernia long overdue for surgery, Sellards returned to Vero to collect charcoal or bone suitable for the newly invented technique of radiocarbon dating. . . . His longtime field assistant Glen Evans accompanied him, having left Texas with careful instructions from Sellard’s physician about what to do if the hernia suddenly bulged. It did, and Sellards collapsed unconscious at the excavation. . . . But the moment Sellards regained consciousness he insisted on continuing to excavate.
+
+The above case of Florida State Geologist Elias Sellards demonstrates that the study of “human antiquity” or man’s earliest origins is one surrounded by passion, controversy, and a deep well of curiosity. Our curiosity about our earliest origins has not only given birth to fictional characters like Indiana Jones and Captain Kirk, but also is largely responsible for the growth of archaeology in the early twentieth century. Western scholars and explorers were not content with simply reaching remote places; they were curious about their earliest human inhabitants. While the motives of early excavators may have been quite simple (Well-known paleoanthropologist Richard Leakey got his start collecting stones as a child), archaeologists and paleoanthropologists eventually created an entirely new field of historical investigation: prehistory. Multiple pioneers have hacked through underbrush or spent months excavating Paleolithic sites. Not until recently, however, have scientific advances, local knowledge, and anthropological theory merged with the curiosity of western explorers to craft a more accurate version of human origins and evolution.
+
+Written texts are the primary sources most historians are trained to work with and are those they are most comfortable using. However, if we are to understand humanity’s origins, we have to recognize that written language is a relatively recent invention (around 5,000 years old); therefore, much of what we know about human beginnings must be borrowed from the findings of colleagues in other disciplines like geology, botany, and archaeology. In all of the regions mentioned below, archaeologists have excavated and analyzed physical evidence relating to our pre-historic ancestors. Up until recent times, though, it was difficult to understand migration patterns and chronology without a method to determine the age of anything from a human skull to a cutting tool. Archaeologists in the 1930s and 40s used imprecise terms like “stone bowl cultures,” a nomenclature that referred more to the details of the articles unearthed than their historical context. This began to change with the advent of radiocarbon dating or C14 dating in the 1940s. Through this method, we were able to place thousands of organic archaeological materials in their proper historical context even without textual evidence. For artifacts over 40,000 years old, the amount of radioactive carbon we can recover doesn’t permit accurate measurement. However, we do have a number of techniques to trace human origins even further back, including aerial photography, side-scanning radar, and potassium-argon dating. All these techniques get around the lack of radioactive carbon in that they don’t date the organic material, but instead the terrain in which they were found, allowing us to trace human origins back millions of years to the beginnings of bipedalism.
+
+The goal of this chapter, though, is not to trace human evolution from its beginnings, but to set the scene for the beginnings of civilization. In this chapter we will explore why hominids moved, how they survived, and how they came to develop agriculture. We also hope to lay out why humans in far flung parts of the world responded similarly to changing conditions around them and hence developed civilizations at roughly the same time.
+
+This chapter begins at the origins of bipedalism some eight million years ago and brings us up to eight thousand years ago with the the Neolithic Era or “new stone age.” Bipedal hominids would develop during the Pliocene era and our closest ancestors during the more recent Pleistocene. Finally, modern Homo sapiens would appear during the Holocene. During the Holocene humans would perfect tool usage during the Paleolithic Era, and would usher in agriculture during the Neolithic. Our chapter ends as humans prepare to enter the Bronze and Iron Ages.
+
+1.3 QUESTIONS TO GUIDE YOUR READING
+
+What were some factors that led to hominid bipedalism?
+
+How did climate affect hominid development?
+
+How and why did Homo sapiens expand out of Africa?
+
+How and when did Homo sapiens populate the Americas?
+
+What was a hunter-gatherer existence like?
+
+Why did Homo sapiens start to prefer agriculture?
+
+How did agriculture start to change human relationships?
+
+1.4 KEY TERMS
+
+Abu Hureya
+
+Beringia
+
+Çatalhüyük
+
+Dolni Vetoniçe
+
+Holocene
+
+Homo erectus
+
+Homo habilis
+
+Homo sapiens
+
+Ice Age
+
+Jericho
+
+Natufians
+
+Neanderthals
+
+Neolithic
+
+Oldowan Industry
+
+Paleolithic
+
+Pleistocene
+
+1.5 HUMAN BEGINNINGS IN AFRICA
+
+The fossil record in Africa clearly establishes that a human lineage diverged there from African apes sometime between eight to six million years ago. Beginning as far back as eight million years ago, various species of hominids (the ancestors of modern humans or Homo sapiens) began to walk upright. This bipedalism would allow these hominids to use their hands to develop, craft, and use tools. Bipedalism would also eventually contribute to a move out of forests into the savanna and turn hominids into big game hunters and gatherers. Paleoanthropologists once theorized that hominids became bipedal to adapt to life in the grasslands. However, the fact that fossils of bipedal hominids were found alongside fossil remains of wood, seeds, and other forest dwellers has cast some doubt on that theory. In fact, bipedal hominids may have lived in the forest for some time. While some bipedal hominids may have stayed in the forest, climate changes did drive others to move into new areas within Africa and beyond it.
+
+1.5.1 Climate, Hominin in Evolution, and Migrations
+
+As far as thirty million years ago hominids were reacting to changes in their environment. (“Hominids” refers to all Great Apes including humans and their ancestors. “Hominins” is often used when speaking more specifically about modern humans and their more recently extinct ancestors. We will use “hominids” here because it covers all of the groups we will reference including modern humans). The earth cooled, producing more fragmented environ- ments. As already mentioned, some hominids may have stayed in the trees, but those that left the forest began to thrive in grasslands. These savannas and prairies expanded during the Miocene, the geologic era lasting from 24 – 2 million years ago. This grassland expansion prompted baboons and hominids to move out of the forest.
+
+Map 1.1 | Early Hominid Fossil Sites
+
+Author: Corey Parson
+
+Source: Original Work
+
+License: CC BY-SA 4.0
+
+During the Pliocene epoch (5 – 1.6 million years ago), another series of en- vironmental changes made these grass- lands even more prevalent, leading to a transformation that geologists call the “turnover-pulse hypothesis.” Animals with adaptations such as angled knee joints and arched feet survived on the grasslands, while those with longer arms or curved fingers who were better suited to the woodlands did not. For hominids, this favorable grassland environment meant the “development of several closely related species. Large-toothed hominids known as robust australopithecines appeared in Southern and Eastern Africa.” Towards the end of the Pliocene, around 2.4 million years ago, the first members of our genus—homo (Homo habilis)—appeared, the first hominid to make stone tools.
+
+The Pleistocene epoch (1.6 million – 10,000 years ago) saw at least twenty-five periods of glaciation and warming. Glaciation resulted from dips in global temperature which had two major effects on hominid development. First, with sea levels dropping due to glaciation, hominids migrated to Australia and the Americas for the first time. Second, while many migrated out of colder climates, those that remained developed physical adaptations. Homo neanderthalensis (Neaderthals), a hominid that disappeared 28,000 years ago, became stockier and more powerful to deal with the difficulties of this icy climate.
+
+While not as dramatic as previous developments, the current Holocene period has seen its share of significant climatic events. The Younger Dryas event (c. 12,000 BCE) was a drop in global temperatures accompanied by a corresponding change in vegetation distribution. Reduced rainfall from 2200 – 1900 BCE made conditions very difficult for civilizations in the Eastern Mediterranean. Finally, the Medieval Warm Period represents “one of the most recent periods of climate change.” Like neanderthalensis, Homo sapiens, Homo erectus, Homo habilis, and other hominids all reacted to changing climate conditions. Homo erectus and Homo habilis migrated, hunted, and used fire, while neanderthalensis had some use of language and tools and buried their dead. For millions of years, in fact, hominids had been using slivers of volcanic stone and cutters probably to hack through animal skin. The cutters were often found close together, suggesting that early hominids even had a division of labor between hunters who would have to pursue their prey and butchers who could wait nearby at the butchering site. There is even evidence of task division by gender among neanderthalensis. Multiple sites in Europe show different patterns of wear on male and female teeth, indicating a gendered task division in tasks where teeth were used to hold, break, or strip objects.
+
+However, by 25,000 years ago all other hominins were extinct; only Homo sapiens sapiens, our species, survived. Paleoanthropologists attribute this survival to larger brains, durability, and ability to adapt to changing environmental conditions. Based on migration patterns and archaeo- logical evidence, Homo sapiens sapiens appear to have been the only hominids to build sea-wor- thy boats, create art, have organized religion, and live in any climate.
+
+1.5.2 Homo sapiens Migration
+
+While Homo sapiens were decidedly more advanced than other hominids, when they first moved out of Africa some 45,000 years ago, they were only equipped with stone tools for hunting and cutting. Despite those initial limitations, 30,000 years later Homo sapiens would inhabit almost every environment on earth and had a presence in every continent except Antarctica. Homo sapiens in fact moved further and faster than all other hominids. While it is hard to attribute a single factor to all Homo sapiens migration, we do see that multiple human societies required migration to arrive at a more sophisticated level of development. Homo sapien migration acceler- ated close to 40,000 years ago, where humans reached continental Eurasia.
+
+Modern humans (50,000 – 10,000 years ago) completed the migration to all the continents except Antartica, moving first into Australia, Eastern Siberia, the Pacific margins, Japan, and the Americas. Then from 10,000 years ago to 1,500 CE, humans arrived in the Arctic, the Indian Ocean, the deep Pacific, and tropical rain forests. Migration occurred in a “staccato” pattern with “easiest” areas colonized quickly, while more “difficult” areas remained uninhabited for thousands of years. A region’s “easiness” is calculated from estimates about available plant and animal biomass and net productivity—that is, how quickly it returns—in each habitat. For example, tropical savannas and grasslands of East Africa were colonized first as the biomass there sustained the first bipedal hominids.
+
+Map 1.2 | The Spreading of Homo sapiens
+
+Author: NordNordWest
+
+Source: Wikimedia Commons
+
+License: Public Domain
+
+Hominids first left “sub-Saharan Africa … through the northern savannahs, up the Nile corridor or across the straits of Bab el Mandeb to the Arabian Peninsula.” Evidence exists of Homo erectus in Morocco, Chad, and Algeria, and it appears that they eventually left Africa via the Arabian Peninsula. After leaving Africa about 1.5 million years ago, choppers, handaxes, and spheroids found at sites like Ubeidiya in Israel put Homo erectus in the Levant. Some scholars argue for the existence of a second migration out of Africa and into the Jordan Valley 500 to 600 thousand years ago.
+
+Asia
+
+Some evidence suggests the presence of Homo ergaster and Homo erectus as having occurred in Java over a million years ago. Chinese Homo erectus fossils date between 800,000 to 400,000 years ago. Homo sapiens began to leave Africa around 40,000 years ago, and hunter gatherers appeared in China by the end of the last Ice Age (36,000 to 16,000 BCE) as continental ice in central Asia began to melt.
+
+Europe
+
+Animal bones and pebble tools place hominids near Rome just before the beginning of the Middle Pleistocene (730,000 years ago). This seems to be the first hominid incursion into Europe. Hominid remains in Spain suggest colonization in Iberia up to two million years ago, but there are not nearly enough remains (no more than twenty inhabitants in any given site) to provide any certainty in terms of which hominids they correspond to or when they lived there. Either way, colonization of Europe can be considered “late.” This tardiness may have been related to a lack of animal food sources. Not until around 500,000 years ago did “new species of deer, bovid, rhino, and horse appear”  in Europe. Around the same time, the cheetah, saber-tooth tiger, and dirk-tooth cat declined in the region, making more carcasses from the aforementioned species available to hominid foragers.
+
+Australia, Papua New Guinea, Sahul
+
+Evidence of tools from 30,000 years ago exists in Australia, and from even longer in New Guinea. The lack of “a dry land crossing to Sahul” (the land mass that once connected New Guinea and Australia) meant that an ocean journey of somewhere between sixty-five and 100 kilometers was required from mainland Asia. This made Australians and New Guineans the first sea-going colonizers. Once in Sahul, how humans populated Australia is still the subject of some debate between those who support the “coastal hugger” theory and those who support the idea of popu- lation by “overlanders.” The more difficult of the two means of populating Australia is overland, as it is more arid than the coasts, and the evidence for tools overland is not as advanced as that for the coast.
+
+Peopling the New World
+
+North and South America were the last continents to be settled by humans. Most scholars think that the Americas were populated from Beringia over land. Around 12,000 years ago, mammoth hunting became more common and supported larger populations on both the Asian and American sides of Beringia, a landmass (now divided by the Bering Strait) which at that time connected North America and Asia. On the Asian side, outlines of houses with stone-lined hearths have been found, remnants indicating permanent settlement that didn’t necessarily have colonization as an end goal. But colonize they did, one group pushing southward between 10,000 and 3,000 years ago and establishing settlements that would become the origins of modern Korean, Japanese, Chinese, and Inuit populations. Another group migrated southeastward through Alaska, their descendants making it as far as Chile and Argentina.
+
+While we know about when American colonization began, the pace and means of coloniza- tion are still debated. Complicating the discussion of timing is the fact that the Late Wisconsin Ice sheet blocked the overland route from about 30,000 years ago, when two sheets merged, up until about 12,000 years ago, when they opened after a thaw. At this point in time, only a handful of sites support possible pre-10,000 BCE occupation: Monte Verde in Chile, Meadowcraft near Pittsburgh, and Page-Ladson in Florida. As recently as 2015, excavations at Monte Verde and Chinchihuapi have strengthened the “possibility of an earlier human presence on the continent” to as far back as 17,000 BCE. This date has continued to move back in time as archeologists consider evidence of more mobile humans who did not leave large artifact clusters because of their ephemeral nature, but nonetheless may have been present before more sedentary groups.
+
+Map 1.3 | Geomorphological Context of the Monte Verde Site
+
+Author: Tom Dillehay
+
+Source: PLOS
+
+License: CC BY 4.0
+
+For now, however, the clearest evidence for when the Americas were widely populated comes through the Clovis point, a specific arrowhead shape that was unique in its ubiquity and so- phistication. The Clovis point was also found in mammoths that had grown extinct by 10,500yearsago, this discovery meaning that humans were common in North America by then. From Beringia, humans moved at a rate of roughly 10 miles a year until they reached Tierra del Fuego and fully populated the Americas (with the exception of some tropical areas mentioned above).
+
+The Arctic
+
+The first Paleo-Eskimo populations appeared around 4,000 years ago after arriving from Eastern Siberia, populations that were left behind by the American colonists already mentioned. The Arctic climate is harsh, to say the least, and these populations needed sophisticated weapons and tools to be able to survive it, which explains their late arrival.
+
+The Arctic colonists expanded rapidly across Alaska, through Canada, and into Greenland, assisted by their arctic “small tool kits” that included the important toggle headed harpoons to kill walrus and seal.
+
+Polynesian origins
+
+The origins of Polynesian humans are still very much in doubt. Groups of Polynesian mariners had existed 50,000 years ago, but they were not colonizers. In fact, many scholars argue that eventual colonization actually began as exploration. Around 2,500 years ago, we see more permanent settlements in Fiji, Tonga, and other areas of the “remote” Pacific, as remnants of pottery have been found there. Based on linguis- tic and technological similarities among Polynesian cultures, some scholars argue that Fiji, Somoa, and Tonga were a crucible of sorts where Polynesians were “made” from groups from throughout Asia. Once these cultural groups had a certain identity, they began to colonize Easter Island, Hawaii, and New Zealand about and beyond 1,000 CE.
+
+We can’t use land migration patterns to understand oversea migration. The Pacific was somewhat of a highway, where currents and winds were well- known and frequently used by mariners. Migrating humans were much more likely to wander aimlessly on land than they were to let currents take them to unknown parts of the ocean. Pacific mariners tacked to use the winds in their favor and, despite population pressures,Pacific mariners were too adept at seafaring to suggest a simple casting out of people into the Pacific in hopes of finding something. Once Pacific colonization did commence, settlers were very deliberate about it, taking with them families, and plants, and animals. It seems that they had every intention of recreating “home.” In sum, the exploration was neither extremely heroic nor extremely risky but instead was calculated and not left to chance.
+
+Map 1.4 | Polynesian Migration
+
+Author: David Eccles
+
+Source: Wikimedia Commons
+
+License: CC BY 3.0
+
+1.5.3 Hunter-gatherers
+
+Chapter Two explores the importance of farming to the creation and expansion of early civili- zations. However, farming was only invented 13,000 years ago, meaning that for most of human history, our food has come through foraging. Early hominids like australopithecines, Homo habilis, and Homo erectus ate mostly plant food. Homo sapiens became more sophisticated foragers as they began to fish with hooks and, more recently, nets, and as they used stone grinding tools to produce flour.
+
+As food gathering techniques evolved for these Paleolithic foragers, so did their behavior as organized groups. Modern humans became mobile to prevent resource depletion; they controlled population through dispersion or infanticide, and they began to “live and work cooperatively.” Modern foragers also began to divide tasks and share food with others, a feature that distin- guishes them from other animals like chimpanzees that live in communities but feed individually. Sharing food is, of course, much easier to do when there is a surplus, and, with increasing tool use, Paleolithic humans became even more adept at foraging, leading to the higher likelihood of food surpluses.
+
+Tool use not only helped humans live cooperatively, but it also may have helped hominids develop abstract thought—evidence of tool use may give us a clue as to when this development began. We know that other animals use tools, but even as long as 2.6 million years ago, we see evidence of the creative thinking required to make more effective tools. Homo habilis in fact takes its name (“handy man”) from the fact that they were the first known hominid tool-makers. Soon after individual tools appeared, the Oldowan Industry became the first widely used toolset,“consisting of flaked and smashed quartz riverside pebbles made into poorly formed choppers and sharp stone flakes, [and] lasted for 1 million years with little change [from 2.6 to 1.5 million years ago].” The Oldowan were followed about 1.5 million years ago by hand axes that remained unchanged for more than a million years. Many scholars argue that these small- er-brained hominids like Homo habilis, homo ergaster, and Australopithecus were both unable and unwilling to innovate much beyond their simple but effective tools, especially considering how harsh their environment could become.
+
+Figure 1.5 | Paleolithic Chopper
+
+Author: User “Archaeodontosaurus“
+
+Source: Wikimedia Commons
+
+License: CC BY-SA 4.0
+
+Fire was another important tool, first used by Homo erectus about 1.6 million years ago. Fire would become important to migrants to colder climes in Europe and Asia and to foragers who could now eat foods that were poisonous if ingested raw. Homo erectus also cooked foods they had previously eaten raw, thereby expanding their lifespan by eliminating toxins found in raw meats.
+
+Homo sapiens would add more meat to their diet when advances in tool-making led to an increase in big game hunting during the late Pleistocene. For example, excavations near Dolni Vetoniçe in the Czech Republic have helped reveal a society that “used mammoth remains not only for meat, but for fuel, construction, jewelry, and portable art.” The inhabitants of Dolni Vetoniçe also made thousands of ceramic figurines, bird bone flutes, and ivory carvings of human heads. The cave paintings of Lascaux also reflect this increased skill as hunters and painters both. The colors and types of paint they used were vibrant and durable, and the scenes they depicted demonstrated their use of diverse hunting techniques. There we see depictions of humans hunting not only deer, but also woolly rhinoceros and mammoths.
+
+Also at Lascaux, we see evidence that hunter-gatherers had both religious beliefs and gender specific tasks, reflecting a sophistication that we usually only attribute to sedentary humans. The fact the humans and animals were depicted together so often at Lascaux may be evidence of a belief that man descended from these animals. Or perhaps the bison, rhinoceri, and birds were painted on the walls to produce “hunting magic” designed to make expeditions more successful. Finally, it was mostly men depicted in these higher-risk hunting activities, suggesting that women were the artists, participated less in the hunt, or both.
+
+Closer to the Neolithic era, societies began to experience a growing role for women reflected through their representation in “Venus” statuettes. (See Figure 1.5) As we get closer to the Neolithic era, we see the relative role of women increasing; their place in ritual increases, their stature increases, their economic importance increases, and their childbearing uniqueness becomes more greatly emphasized.
+
+Figure 1.2 | Bull, Bird, and Human from Lascaux Cave
+
+Author: User “Peter80”
+
+Source: Wikimedia
+
+Commons License: CC BY-SA 2.5
+
+Increased sophistication was not limited to big game hunters, however. Campsites, rock art, and burial sites near Lake Mungo in Australia reveal how these early humans used pottery for cooking and had a diverse diet of birds, fish, and shellfish, a diet that seems to have kept them well-nourished. Australia was a society of hunter-gatherers until European colonization. Mobility was essential, with the continent’s lack of widespread rainfall and rich soil. As a result, ab- original Australians needed an extensive knowledge of their terrain and where to move when. Tasmanians would ambush wallabies at their seasonal grazing territory, while aborigines in the central deserts had to know when water holes would go dry. We also learn from the remains of Australian aborigines that foragers could be quite complex if they continued to hunt and gather for thousands of years. Aborigines painted, developed advanced weapons like the boomerang, warred against one another, developed creation myths, passed down oral histories, and played musical instruments.
+
+1.6 AGRICULTURE AND THE “NEOLITHIC REVOLUTION”
+
+Historian Lauren Ristvet defines agriculture as the “‘domestication’ of plants… causing it to change genetically from its wild ancestor in ways [that make] it more useful to human consum- ers.” She and hundreds of other scholars from Hobbes to Marx have pointed to the Neolithic Revolution, that is, the move from a hunter-gatherer world to an agricultural one, as the root of what we today refer to as civilization. Without agriculture we don’t have empires, written language, factories, universities, or railroads. Despite its importance, much remains unclear about why and where agriculture began. Instead, scholars hold a handful of well-regarded theories about the roots (pun intended) of agriculture.
+
+Most scholars agree that the Ice Age played a fundamental role in the rise of agriculture, in the sense that it was impossible during the much colder and often tundra-covered period of the Pleistocene, but inevitable during the Holocene thawing. Only 4,000 years before the origins of agriculture, the planting of anything would have been an exercise in futility. During the Last Glacial Maximum (24,000 – 16,000 years ago), average temperatures dropped “by as much as 57˚ F near the great ice sheets…” This glaciation meant not only that today’s fertile farmlands of Spain or the North American Great Plains were increasingly covered in ice, but also that other areas around the world could not depend on constant temperatures or rainfall from year to year. Pleistocene foragers had to be flexible. The warming trend of the Holocene, by contrast, resulted in consistent rainfall amounts and more predictable temperatures. The warming also altered the habitats of the megafauna that humans hunted, alterations that in some cases contributed to their extinction. Therefore, as animal populations declined, humans were further encouraged to plant and cultivate seeds in newly-thawed soil.
+
+When we start to examine other factors that allowed humans to transition to agriculture, we find that the climate factor looms even larger. For example, agriculture was usually accompa- nied by sedentarism, but we see communal living and permanent settlements among multiple groups of hunter-gatherers. Homo sapiens had also begun to domesticate animals and plants alike during the Pleistocene. Humans were already being buried alongside dogs as early as 14,000 years ago. As we’ll see below, gatherers were developing an increasing taste for grains long before they would abandon a foraging lifestyle. Essentially, humans were ready for agriculture when climate permitted it.
+
+We discuss elsewhere the timing of agriculture’s appearance in all of the continents, but generally speaking by about 8,000 years ago, farmers in West Asia were growing rye, barley, and wheat. In northern China, millet was common 8,500 years ago. In the Americas, the domestication of maize began around 8,000 years ago in Mesoamerica, while at about the same time, Andean residents began cultivating potatoes. Once all of these areas realized agriculture’s potential as a permanent food source, they began to adapt their societies to increase their crop consistency and crop yields. We’ll discuss how agriculture affected societal development below.
+
+1.6.1 First farmers of West Asia [or the Fertile Crescent]
+
+In later chapters we will discuss Mesopotamia, the area between the Euphrates and Tigris Rivers that agriculture would make the “cradle of civilization.” (See Map 2.1). However, the incubator of Mesopotamian and Fertile Crescent agriculture and cultural patterns dated back to the foragers of the nearby Eastern Mediterranean, thousands of years before. The rye, barley, and wheat in West Asia were first harvested by late Pleistocene foragers called the Kebarans who ground wild wheat and barley into a porridge. Kebarans consumed the porridge as part of their broad spectrum diet that also included land mammals, birds, and fish. Advancing into the Holocene we see the “Natufian Adaptation,” where residents of this same area began to see the benefits of sedentary living in a precursor to the advent of agriculture. The Natufians consumed the same rye, barley, and wheat that their Kebaran predecessors had, but because their teeth were well-worn it appears they ate relatively more of it. Having a constant source of these grains enabled their eschewing long hunting or gathering soujourns; instead, the Natufians drew more of their meat from in and around Lake Huleh in modern Israel. Near Lake Huleh was Ain Mallaha, one of the earliest examples of year-round human settlement and an important precursor to sedentary agriculture.
+
+Map 1.5 | Natufian Spread
+
+Author: User “Crates”
+
+Source: Wikimedia Commons
+
+License: CC BY 3.0
+
+Another permanent settlement in Southwest Asia seems to have been more directly respon- sible for the decision to actually domesticate grain, rather than simply cultivate wild varieties. Abu Hureya in Syria was deeply affected by the Younger Dryas event of 11,000 years ago, an event which caused many of their wild food staples to disappear. Rather than migrating out of the area, the Abu Hureyrans cultivated rye. Soon afterward, other sites in the Levant began to see the planting of barley, while wheat was cultivated in both the Levant and Anatolia.
+
+1.6.2 First Permanent Settlements in West Asia [of the Fertile Crescent]
+
+The transition from foraging, to collecting to cultivating took place over several centuries, but these gradual changes did serve to mark a very distinct era of permanent settlement during the Neolithic Period. Increased rainfall around 9600 BCE meant that the Jordan River would swell yearly, in the process depositing layers of fertile soil along its banks. This fertile soil allowed locals to rely on agriculture for survival. Soon after they founded Jericho just north of the Dead Sea: “perhaps the very first time in human history that a complete- ly viable population was living in the same place at the same time.” By Jericho’s height, around 9000 BCE, the settlements population reached the hundreds. This increase cannot be considered an urban boom of course, and the transition away from foraging occurred gradually. For example, excava- tions from this area have unearthed no separation of tasks or dwellings by gender or skill. However, by the end of Jericho’s development, maintain- ing large populations in one place would prove to produce other extensive adjustments.
+
+Map 1.6 | The Jordan River
+
+Author: User “Interiot”
+
+Source: Wikimedia Commons
+
+License: Public Domain
+
+Jericho’s residents did distinguish themselves from their hunter-gatherer predecessors, however, through their relatively extensive construction projects. They used mud bricks to build a wall that encircled the settlement probably for flood control, a tower, and separate buildings for grain storage.
+
+The former foragers now living at Jericho could rely on fish or other aquatic creatures for meat as they experimented with permanent settlement, but those foragers living further away from large bodies of water would need another source of meat. This need increasingly was met by animal domestication. Domestication would prove to be a slow process, as humans learned the hard way that zebras bite, impalas are claustrophobic, and bighorn sheep do not obey orders. In other words, some animals cannot be domesticated, but this is information only under- stood through trial and error. By about 7,500 BCE, however, humans in the Taurus and Zagros mountains employed selective breeding to eventually domesticate mountain sheep and goats. The temperament and size of pigs and cows delayed their domestication until the 6,000s BCE, but this process proved equally, if not more important, than that of sheep and goats.
+
+As agriculture and animal domestication progressed, settlements around the Mediterranean became larger and more sophisticated. By 7,000 BCE on the Anatolian plateau, Çatalhüyük reached several thousands of inhabitants. The residents at Çatalhüyük buried their dead, con- structed uniform adjacent houses with elaborate designs painted on their interior walls, and had multiple workshops where (among other activities) they wove baskets, and made obsidian mirrors as well as daggers with “carved bone handles.” Catalhüyük denizens wove wool into cloth; developed a varied diet of peas, nuts, vegetable oil, apples, honey, and the usual grains; and improved weapons technology with sharper arrows added to their use of daggers and lances. These gains may seem modest by our standards, but the legacy of communal living and, ultimately, political centralization that they introduced was extraordinary.
+
+Figure 1.3 | Çatalhüyük at the Time of the First Excavations
+
+Author: Omar Hoftun
+
+Source: Wikimedia Commons
+
+License: CC BY-SA 3.0
+
+Jericho and Çatalhüyük were surely some of the most notable early settlements, but they were not alone. The appearance of these two settlements was accompanied by the increasing presence of village life across the world. Most early agricultural villages in Southwest Asia and around the world were very similar in appearance; they had around twenty residents and were organized around grain cultivation and storage. Small huts were organized in a “loose circle,” and grain silos were placed between each hut. Labor was a communal activity, and village members all spent time hoeing the fields or hunting. The most valuable asset to a community was the grain itself, but neither it nor the land where it grew it belonged to one individual.
+
+This model existed for hundreds and even thousands of years in some areas, until the villages stopped hunting and domesticated animals. For many scholars, the abandonment of hunting represents the “real” Neolithic Revolution. As communities completely abandoned hunting and gathering, they dedicated more energy to warfare, religion, and construction; in consequence, dwellings and settlements grew, along with a concomitant focus on tool and weapon making.
+
+1.6.3 Leaving Paleolithic Culture Behind
+
+While the Neolithic Era is described in greater detail elsewhere, it is important to understand Paleolithic and Neolithic differences in order to convey a sense of just how revolutionary the shift to agriculture was for humanity. For example, agriculture contributed to (along with religion and trade) the development of class. Before agriculture, hunter-gatherers divided tasks like seed gathering, grinding, or tool-making. However, without large scale building projects like aqueducts or canals required for agriculture, hierarchies were much less pro- nounced. The intensification of agriculture during the Neolithic required irrigation, plowing, and terracing, all of which were labor intensive. The amount of labor required could not be met through simple task division; someone had to be in charge. This meant the establishment of ruling elites, a societal grouping that had not existed during the Paleolithic.
+
+Figure 1.4 | Khiam Point from Nahal Hemar
+
+Author: User “Illujanka”
+
+Source: Wikimedia Commons
+
+License: CC BY-SA 4.0
+
+While violence certainly existed during the Paleolithic period, organized warfare was an invention of the Neolithic. Agriculture meant larger popula- tions and settlements that were more tightly packed and closer to one another. These closer quarters created new social and economic pressures that could produce organized violence. Agricultural intensifica- tion produced stores of food and valuables that could be seized by neighbors. During the 9,000s BCE, set- tlements like Jericho began to build defensive walls, while skeletons unearthed in the area reveal wounds from new types of projectiles (like the Khiam Point) developed during the era.
+
+Family life also changed significantly during the Neolithic. Sedentary communities invested more time and resources into the construction of permanent homes housing nuclear families. People spent less time with the community as a whole and within homes it became easier to accumulate wealth and keep secrets.
+
+The shift in gender roles after agriculture seems to be even more pronounced, as the role of women became more important as humans moved out of the Paleolithic and into the Neolithic era.
+
+Figure 1.5 | Different types of carved Venus figurines, Anthropos Museum, Brno, Czech Republic
+
+Author: Mercy from Wikimedia Commons
+
+Source: Wikimedia Commons
+
+License: CC BY-SA 3.0
+
+During the Paleolithic Era, and until recently in fact, a child would be breastfed until he or she was three or four years old, a necessity preventing mothers from joining long-distance hunting expeditions without their toddlers. However, a breastfeeding woman could complete tasks that “don’t require rapt concentration, are rel- atively dull and repetitive; they are easily interrupted, don’t place the child in danger, and don’t require the participant to stray far from home.” Spinning, weaving, and sewing were some of these tasks. Also, the essential tasks of preparing food and clothing could be accomplished with a nursing toddler nearby. These tasks that may be consigned as “women’s work” today are among the most important tasks (and very time consuming ones before the industrial revolution) that a human could perform. In fact, they were so time consuming that women would spend most of their day on them, often being assisted by men.
+
+Over time, Paleolithic women gathered new species of berries as well as bird eggs, and learned which mushrooms were nontoxic. Women also were the principal gatherers of mosses for sleeping mats and other plants for shelter. When men returned with a kill, the women then began an involved process of dressing and butchering it. Sinews from animals and fibers from plants became rope to tie or fasten the hides as well as baskets. Women thus were essential to any kind of productivity or progress associated with hunting. Women used sinews and fibers to create netting for transport and for hunting and fishing. In hunting societies with elements of horticulture, women were respon- sible for, and could provide, such food as legumes, eggs, and grains. Food gathering and weaving, especially in the dry Mediterranean, was an outdoor and community activity that also served as a preschool and apprentice system for children. So women were also community educators.
+
+Neolithic Women
+
+While Paleolithic women certainly had important responsibilities, the added tasks of herding and animal domestication expanded their roles tremendously in the Neolithic era. Neolithic survival required not only effective food storage, but also increased production. Children on a farm can be more helpful and put in less danger than those on a hunt. Neolithic women increas- ingly bore more children, either because of increased food production or to help augment it. This increase in child bearing may also have offset an increase in mortality due, for example, to disease. Because dangers from disease grew in new villages due to the ease with which deadly diseases spread in close quarters, and nearby domesticated animals whose diseases spread from animal to humans, more children would be necessary to replace those who had succumbed to illness.
+
+While Neolithic women carried an increased child-bearing responsibility, their other respon- sibilities did not necessarily wane. Though women may not have fired pottery when it began to appear some 6,000 years ago, they appeared on it in decorative symbols of female fertility. Around 4,000 BCE, gendered tasks shifted again with the domestication of draft animals. Food produc- tion once again became men’s domain, as herding was incompatible with childrearing. Later, in Neolithic herding societies, women were often responsible for the actual domestication of feral babies, nursing them and raising them. Men would shear sheep, help weave, market the textiles, and cultivate the food that was prepared in the home.
+
+We should say that this was not the case with all agricultural societies, as many horticultural- ists who were able to cultivate crops closer to home were able to remain matrilineal. For example, we have the case of Minoan women on the Mediterranean island of Crete that we discuss in more detail in Chapter Five. On Crete’s hilly terrain, women were able to cultivate terraced horticul- ture and keep herds of sheep and goats nearby. Therefore, as women lost power and influence elsewhere due to more intensive agriculture, Minoan women actually expanded their control over Crete’s economic and cultural life and would help give rise to Classical Greece.
+
+1.6.4 Toward First Civilizations
+
+We will discuss the Bronze Age elsewhere, but we should mention here that new pursuits like mining added to the domestic burden on women. The advent of the Bronze Age led to far-spread searching and mining for copper and other metals like arsenic or tin to harden it and create the bronze alloy. Mining consequently become a male pursuit. Between 9,000 and 4,000 BCE, as metal become a source for wealth and subsistence, men’s roles shifted from being secondary to being both the food collectors and the economic backbone of individual families and societies.
+
+These Neolithic developments in sedentary agriculture and village life would be the foundation for an explosion of cultural development three thousand years later in Egypt and Mesopotamia (addressed later in this text). By the Age of Exploration in the 1500s CE, most of the world had adopted agriculture as a primary means of subsistence, and the foundation of great civilizations.
+
+1.7 SUMMARY
+
+The story of world civilizations really begins six to eight million years ago when ancestors of modern humans began to walk upright. Millions of years of evolutionary response to changing climates and environment led to the existence of our species, Homo sapiens. While other hominids migrated out of Africa, had language, and made fire and tools, it was Homo sapiens who were able to navigate open oceans and eventually populate the entire planet. Over the last 50,000 years or so, Homo sapiens became modern humans by improving their hunting, their building techniques, their community living, and their food gathering and storage. About 10,000 years ago, the Neolithic Era began. Humans began to live in larger, permanent settlements where a permanent food source needed to be nearby. These were the beginnings of agriculture. This “agricultural revolution” deeply affected gender relationships, class distinctions, and economic priorities as most humans left their foraging days behind them, the importance of which will be discussed in later chapters.
+
+1.8 WORKS CONSULTED AND FURTHER READING
+
+Bradley, Bruce and Dennis Stanford. “A Possible Paleolithic Route to the New World.” World Archaelolgy 36 no. 4 (Dec., 2004): 459-478.
+
+Dillehay TD, Ocampo C, Saavedra J, Sawakuchi AO, Vega RM, Pino M, et al. (2015) “New Archaeological Evidence for an Early Human Presence at Monte Verde, Chile.” PLoS ONE 10(11): e0141923. doi:10.1371/journal.pone.0141923 http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141923
+
+Estalarrich, Almudena and Antinio Rosas. “Division of Labor by Sex and Age in Neandertals: An Approach Through the Study of Activity-Related Dental Wear.” Journal of Human Evolution 80 (March 2015): 51-63.
+
+Fawcett, Percy. Exploration Fawcett: Journey to the Lost City of Z. New York: The Overlook Press, 2010. Gamble, Clive. Timewalkers: Prehistory of Global Colonization. Bath, Avon: The Bath Press, 1993.
+
+Grann, David. The Lost City of Z: A Tale of Deadly Obsession in the Amazon. New York: Vintage Books, 2010.
+
+Mithen, Steven. After the Ice: A Global Human History, 20,000-5,000 BC. London: Weidenfeld & Nicolson, 2003.
+
+Ristvet, Lauren. In the Beginning: World History from Human Evolution to the First States. Boston: McGraw Hill, 2007.
+
+Scarre, Chris, ed. The Human Past: World Prehistory and the Development of Human Societies. 2nd ed. London: Thames & Hudson, 2009.
+
+Smithsonian Institution, Human Origins Initiative. http://humanorigins.si.edu/evidence/human-fossils/ species/homo-habilis
+
+Sutton, J.E.G. “Archeology and Reconstructing History in the Kenya Highlands: The Intellectual Legacies of G.W.B. Huntingford and Louis S.B. Leakey.” History in Africa 34 (2007), pp. 297-320.
+
+Strayer, Robert. Ways of the World: A Brief Global History with Sources, 2nd. Ed. New York, Bedford St. Martins, 2013.
+
+Wayland Barber, Elizabeth. Women’s Work: The First 20,000 Years – Women, Cloth and Society in Early Times. New York: Norton, 1995.
+
+1.9 LINKS TO PRIMARY SOURCES
+
+Bering Land Bridge National Preserve 
+https://www.nps.gov/nr/travel/cultural_diversity/Bering_Land_Bridge_National_Preserve.html
+
+Oldowan & Acheulean Stone Tools
+https://anthromuseum.missouri.edu/minigalleries/handaxes/intro.shtml
+
+Dolni Vetoniçe
+http://australianmuseum.net.au/dolni-vstonice-archaeological-site
+
+Natufian site of Eyan/Ain Mallaha
+http://www.metmuseum.org/toah/hd/eyna/hd_eyna.htm
+
+Çatalhüyük
+http://whc.unesco.org/en/list/1405
+
+Chronology | Prehistory
+
+8-6 million years ago | Bi-pedal hominids in Africa
+
+2.6 million years ago | Homo habilis begin to use tools
+
+43,000 BCE | Homo sapiens expand out of Africa
+
+50,000 – 10,000 BCE | Homo sapiens complete their migration to all continents
+
+22,000 – 14,000 BCE | Last glacial Maximum
+
+c. 9,000 BCE | Younger Dryas event
+
+c. 9,000 BCE | Jericho reaches its height
+
+c. 7,000 BCE | Çatalhüyük reaches several thousand inhabitants
+
+2,000 BCE | Paleo-Eskimos appear in the Arctic
+
+2,000 BCE | Humans begin to make pottery

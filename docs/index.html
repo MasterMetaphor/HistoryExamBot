@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History 2310 Study Bot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-graduation-cap"></i> History 2310 Study Bot</h1>
+            <p>Interactive Study Assistant for Early World History</p>
+        </header>
+
+        <nav class="nav-tabs">
+            <button class="tab-btn active" data-tab="quiz">
+                <i class="fas fa-question-circle"></i> Multiple Choice Quiz
+            </button>
+            <button class="tab-btn" data-tab="paragraph">
+                <i class="fas fa-edit"></i> Paragraph Grading
+            </button>
+            <button class="tab-btn" data-tab="study">
+                <i class="fas fa-book"></i> Study Materials
+            </button>
+        </nav>
+
+        <!-- Multiple Choice Quiz Section -->
+        <div id="quiz" class="tab-content active">
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <h2>Multiple Choice Quiz</h2>
+                    <div class="quiz-controls">
+                        <select id="subjectSelect">
+                            <option value="all">All Subjects</option>
+                            <option value="prehistory">Prehistory & Human Evolution</option>
+                            <option value="mesopotamia">Mesopotamian Civilizations</option>
+                            <option value="israel">Ancient Israel & Hebrew Monotheism</option>
+                            <option value="egypt">Ancient Egypt</option>
+                            <option value="india">Ancient India</option>
+                            <option value="china">Ancient China</option>
+                            <option value="greece">Ancient Greece</option>
+                        </select>
+                        <button id="startQuiz" class="btn btn-primary">
+                            <i class="fas fa-play"></i> Start Quiz
+                        </button>
+                    </div>
+                </div>
+
+                <div id="quizArea" class="quiz-area" style="display: none;">
+                    <div class="question-counter">
+                        <span id="currentQuestion">1</span> of <span id="totalQuestions">10</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    
+                    <div class="question-container">
+                        <h3 id="questionText"></h3>
+                        <div id="optionsContainer" class="options-container"></div>
+                    </div>
+                    
+                    <div class="quiz-actions">
+                        <button id="nextQuestion" class="btn btn-primary" style="display: none;">
+                            <i class="fas fa-arrow-right"></i> Next Question
+                        </button>
+                        <button id="submitQuiz" class="btn btn-success" style="display: none;">
+                            <i class="fas fa-check"></i> Submit Quiz
+                        </button>
+                    </div>
+                </div>
+
+                <div id="resultsArea" class="results-area" style="display: none;">
+                    <h3>Quiz Results</h3>
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <span id="scorePercentage">0%</span>
+                        </div>
+                        <p>You scored <span id="correctAnswers">0</span> out of <span id="totalAnswers">0</span></p>
+                    </div>
+                    <div id="detailedResults"></div>
+                    <button id="retakeQuiz" class="btn btn-primary">
+                        <i class="fas fa-redo"></i> Take Another Quiz
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paragraph Grading Section -->
+        <div id="paragraph" class="tab-content">
+            <div class="paragraph-container">
+                <h2>Paragraph Grading Exercise</h2>
+                <p>Write a paragraph about one of the historical subjects below. The AI will grade your response based on historical accuracy, relevance, and depth of understanding.</p>
+                
+                <div class="subject-selection">
+                    <h3>Choose a Subject:</h3>
+                    <div class="subject-grid">
+                        <button class="subject-btn" data-subject="prehistory">
+                            <i class="fas fa-users"></i>
+                            <span>Prehistory & Human Evolution</span>
+                        </button>
+                        <button class="subject-btn" data-subject="mesopotamia">
+                            <i class="fas fa-city"></i>
+                            <span>Mesopotamian Civilizations</span>
+                        </button>
+                        <button class="subject-btn" data-subject="israel">
+                            <i class="fas fa-star-of-david"></i>
+                            <span>Ancient Israel & Monotheism</span>
+                        </button>
+                        <button class="subject-btn" data-subject="egypt">
+                            <i class="fas fa-mountain"></i>
+                            <span>Ancient Egypt</span>
+                        </button>
+                        <button class="subject-btn" data-subject="india">
+                            <i class="fas fa-om"></i>
+                            <span>Ancient India</span>
+                        </button>
+                        <button class="subject-btn" data-subject="china">
+                            <i class="fas fa-dragon"></i>
+                            <span>Ancient China</span>
+                        </button>
+                        <button class="subject-btn" data-subject="greece">
+                            <i class="fas fa-columns"></i>
+                            <span>Ancient Greece</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="paragraphArea" class="paragraph-area" style="display: none;">
+                    <div class="selected-subject">
+                        <h3>Writing about: <span id="selectedSubjectName"></span></h3>
+                        <div class="subject-guidelines">
+                            <h4>Guidelines:</h4>
+                            <ul id="subjectGuidelines"></ul>
+                        </div>
+                    </div>
+                    
+                    <div class="writing-area">
+                        <label for="paragraphText">Your Paragraph:</label>
+                        <textarea id="paragraphText" placeholder="Write your paragraph here... (minimum 100 words)"></textarea>
+                        <div class="word-count">
+                            <span id="wordCount">0</span> words
+                        </div>
+                    </div>
+                    
+                    <div class="paragraph-actions">
+                        <button id="gradeParagraph" class="btn btn-primary">
+                            <i class="fas fa-check-circle"></i> Grade My Paragraph
+                        </button>
+                        <button id="clearParagraph" class="btn btn-secondary">
+                            <i class="fas fa-eraser"></i> Clear
+                        </button>
+                    </div>
+                </div>
+
+                <div id="gradingResults" class="grading-results" style="display: none;">
+                    <h3>Grading Results</h3>
+                    <div class="grade-breakdown">
+                        <div class="grade-item">
+                            <span class="grade-label">Historical Accuracy:</span>
+                            <div class="grade-bar">
+                                <div id="accuracyBar" class="grade-fill"></div>
+                                <span id="accuracyScore">0/10</span>
+                            </div>
+                        </div>
+                        <div class="grade-item">
+                            <span class="grade-label">Relevance to Subject:</span>
+                            <div class="grade-bar">
+                                <div id="relevanceBar" class="grade-fill"></div>
+                                <span id="relevanceScore">0/10</span>
+                            </div>
+                        </div>
+                        <div class="grade-item">
+                            <span class="grade-label">Depth of Analysis:</span>
+                            <div class="grade-bar">
+                                <div id="depthBar" class="grade-fill"></div>
+                                <span id="depthScore">0/10</span>
+                            </div>
+                        </div>
+                        <div class="grade-item">
+                            <span class="grade-label">Writing Quality:</span>
+                            <div class="grade-bar">
+                                <div id="writingBar" class="grade-fill"></div>
+                                <span id="writingScore">0/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overall-grade">
+                        <h4>Overall Grade: <span id="overallGrade">0/40</span></h4>
+                        <div class="grade-feedback">
+                            <h5>Feedback:</h5>
+                            <div id="gradeFeedback"></div>
+                        </div>
+                    </div>
+                    <button id="writeAnother" class="btn btn-primary">
+                        <i class="fas fa-edit"></i> Write Another Paragraph
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Study Materials Section -->
+        <div id="study" class="tab-content">
+            <div class="study-container">
+                <h2>Study Materials</h2>
+                <div class="materials-grid">
+                    <div class="material-card">
+                        <h3><i class="fas fa-file-alt"></i> PowerPoint Slides</h3>
+                        <div class="material-list">
+                            <div class="material-item" data-file="2310-F25-01-In_the_Beginning.txt">
+                                <span>In the Beginning</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-02-Paleolithic_and_Neolithic_Humanity.txt">
+                                <span>Paleolithic and Neolithic Humanity</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-03-Mesopotamia-I.txt">
+                                <span>Mesopotamia I</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-04-Mesopotamia-II.txt">
+                                <span>Mesopotamia II</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-05-AncientIsrael.txt">
+                                <span>Ancient Israel</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-06-AncientEgypt-I.txt">
+                                <span>Ancient Egypt I</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-07-AncientEgypt-II.txt">
+                                <span>Ancient Egypt II</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-08-AncientIndia-I.txt">
+                                <span>Ancient India I</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-09-AncientIndia-II.txt">
+                                <span>Ancient India II</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-10-AncientIndia-III.txt">
+                                <span>Ancient India III</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-11-AncientIndia-IV.txt">
+                                <span>Ancient India IV</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-12-AncientChina-I.txt">
+                                <span>Ancient China I</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-13-AncientChina-II.txt">
+                                <span>Ancient China II</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-14-AncientChina-III.txt">
+                                <span>Ancient China III</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-15-MinoanCivilization.txt">
+                                <span>Minoan Civilization</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-16-MycenaeanCivilization.txt">
+                                <span>Mycenaean Civilization</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-17-GreekDarkAges.txt">
+                                <span>Greek Dark Ages</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-18-ArchaicGreece-I.txt">
+                                <span>Archaic Greece I</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-19-ArchaicGreece-II.txt">
+                                <span>Archaic Greece II</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-20-ArchaicGreece-III.txt">
+                                <span>Archaic Greece III</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-21-ArchaicGreece-IV.txt">
+                                <span>Archaic Greece IV</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-F25-22-AncientPersia.txt">
+                                <span>Ancient Persia</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2310-S25-23-PersianWars.txt">
+                                <span>Persian Wars</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="material-card">
+                        <h3><i class="fas fa-book"></i> Textbook Chapters</h3>
+                        <div class="material-list">
+                            <div class="material-item" data-file="0.txt">
+                                <span>World History Textbook</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="1.txt">
+                                <span>Chapter 1: Prehistory</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="2.txt">
+                                <span>Chapter 2: Early Middle Eastern Civilizations</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="3.txt">
+                                <span>Chapter 3: Ancient India</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="4.txt">
+                                <span>Chapter 4: China and East Asia</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                            <div class="material-item" data-file="5.txt">
+                                <span>Chapter 5: The Greek World</span>
+                                <button class="view-btn">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Material Viewer Modal -->
+        <div id="materialModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modalTitle">Material Content</h3>
+                    <button class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="modalContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quiz-data.js"></script>
+    <script src="js/study-bot.js"></script>
+</body>
+</html>
